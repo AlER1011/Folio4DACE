@@ -1,10 +1,12 @@
 \documentclass{FolioDACE}
+%This is the header of the file, where the libraries and configurations are defined.
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-\usepackage{pdfpages}
+\usepackage{pdfpages} %This is the library that allow importing external PDFs.
+
 \begin{document}
 
-
+%This is the command used to import an external PDF file. It imports all pages and fits them to the paper size of the generated PDF.
 \includepdf[pages={-},fitpaper=true]{CCP-114.pdf}
 
 
