@@ -11,6 +11,6 @@
   \fancyhf{}% Clear header/footer
   \fancyhead{% Header
   \makebox[\textwidth][r]{% Right
-  \rotatebox{90}{\ttfamily\fontsize{20pt}{20pt}\selectfont	\fourdigits{\thepage}}}}}% Rotates the header box containing the page number and increases it's digit count.
+  \rotatebox{90}{\ttfamily\fontsize{20.74pt}{20.74pt}\selectfont	\fourdigits{\thepage}}}}}% Rotates the header box containing the page number and increases it's digit count.
 \renewcommand{\headrulewidth}{0pt}% No header rule
 \renewcommand{\footrulewidth}{0pt}% No footer rule
